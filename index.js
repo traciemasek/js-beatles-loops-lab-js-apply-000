@@ -2,6 +2,7 @@ const theBeatlesPlay = (musicians, instruments) => {
   let arr = [];
   for (let i = 0; i < musicians.length; i++) {
     arr.push(`${musicians[i]} plays ${instruments[i]}`)
+<<<<<<< HEAD
     }
     return arr;
   }
@@ -23,4 +24,7 @@ const iLoveTheBeatles = (n) => {
     n++;
   } while (n < 15);
   return newArr;
+=======
+  }
+>>>>>>> 29909d7f90b70db778e5cd68f020d2943fe4bab3
 }
